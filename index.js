@@ -12,7 +12,7 @@ console.log(fibs(8))
 
 // Merge Sort
 function mergeSort(arr) {
-    //this function takes and array and splits it in two until we have single elements array.
+    //this function takes and array and creates it's halves. It does it by calling itself one time to create the left half and the other do create the right half and it keeps calling itself until array's lenght is just one.
     if (arr.length <= 1) {
         return arr;
     }
